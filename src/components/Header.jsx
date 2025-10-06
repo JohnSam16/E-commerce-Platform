@@ -68,7 +68,7 @@ const Header = ({ setView, cartItemCount, onLogout, searchTerm, onSearchChange }
             onClick={() => setView({ name: 'products' })}
           >
             <img
-              src="src/assets/logo1.png"
+              src={logo1}
               alt="Namma Kadai Logo"
               className="w-10 h-10 sm:w-12 sm:h-12 object-contain animate-pulse rounded-full"
             />
